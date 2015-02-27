@@ -1,0 +1,61 @@
+{
+  "name": "twitch-irc-oauth",
+  "version": "1.0.0",
+  "description": "OAuth module for twitch-irc.",
+  "keywords": [
+    "irc",
+    "twitch",
+    "bot",
+    "lib",
+    "library",
+    "stream",
+    "live",
+    "robot",
+    "twitchtv",
+    "twitch.tv",
+    "node",
+    "iojs",
+    "database",
+    "oauth",
+    "oauth2"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twitch-irc/twitch-irc-oauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twitch-irc/twitch-irc-oauth/issues"
+  },
+  "author": {
+    "name": "Schmoopiie",
+    "email": "Schmoopiie@gmail.com",
+    "url": "http://www.schmoopiie.com/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./index",
+  "dependencies": {
+      "body-parser": "^1.12.0",
+      "ejs": "^2.3.1",
+      "express": "^4.12.0",
+      "express-session": "^1.10.3",
+      "method-override": "^2.3.1",
+      "passport": "^0.2.1",
+      "passport-twitch": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "maintainers": [
+    {
+      "name": "Schmoopiie",
+      "email": "Schmoopiie@gmail.com"
+    }
+  ],
+  "directories": {},
+  "homepage": "https://github.com/twitch-irc/twitch-irc-oauth"
+}
