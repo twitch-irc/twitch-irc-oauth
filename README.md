@@ -7,31 +7,9 @@
 $ npm install --save twitch-irc-oauth
 ```
 
-## Configuration
+## Documentation
 
-```javascript
-var irc = require('twitch-irc');
-
-var clientOptions = {
-    options: {
-        exitOnError: false,
-        database: './data',
-    },
-    channels: ['schmoopiie']
-};
-
-var client = new irc.client(clientOptions);
-
-// Using the database module is optional.
-var db     = require('twitch-irc-db')(clientOptions);
-
-// Passing the client instance (required) and the database module..
-var oauth  = require('twitch-irc-oauth')(client, db);
-
-client.addListener('oauth', function (username, token, scopes) {
-    // Do your stuff.
-});
-```
+[Click here for the online documentation of twitch-irc-oauth](http://www.schmoopiie.com/docs/twitch-irc/index.php/Modules/OAuth/Configuration).
 
 ## Contributing Guidelines
 
